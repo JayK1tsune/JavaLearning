@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "JavaLearningMain",
+			"path": "../JavaLearningMain"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavaLearning"
+	}
+}
