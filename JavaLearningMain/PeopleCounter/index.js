@@ -13,6 +13,7 @@ let count = 0
 let countElement = document.getElementById('count')
 let previousEl = document.getElementById('save-el')
 
+
 function increment() {
     count += 1
     countElement.textContent = count
@@ -25,6 +26,12 @@ function save() {
     //reset count to 0
     count = 0
     countElement.textContent = count
+}
+
+function clearAll() {
+    count = 0
+    countElement.textContent = count
+    previousEl.textContent = "Previous entries: "
 }
 
 
