@@ -31,8 +31,19 @@ function save() {
 function clearAll() {
     count = 0
     countElement.textContent = count
-    previousEl.textContent = "Previous entries: "
+    previousEl.textContent = "Previous Nights: "
 }
+let users = new Map()
+
+let index1 = {name: 'Jenny', age: 23}
+let index2 = {name: 'Tim'}
+
+users.set(index1, {...index1, id: 1})
+users.set(index2, {...index2, id: 2})
+
+console.log(users.get(index1).age)
+
+
 
 
 
